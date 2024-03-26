@@ -1,0 +1,25 @@
+<view class="skyline">
+  <scroll-view scroll-y type="list" class="scroll-view">
+    <view class="title">1. border 实现三角形有分界线</view>
+    <view class="card card--active">
+      <view style="width: 40px; height: 40px"></view>
+    </view>
+
+    <view class="title">2. 超出省略无效</view>
+    <view class="textOVerFlow">
+      三行省略三行省略三行省略三行省略三行省略三行省略三行省略三行省略三行省略三行省略三行省略
+    </view>
+
+    <view class="title">3. flex-direction: row-reverse; 表现异常</view>
+    <view class="flex row">
+      row
+    </view>
+    <view class="flex row-reverse">
+      row-reverse
+    </view>
+
+
+  </scroll-view>
+</view>
+
+
