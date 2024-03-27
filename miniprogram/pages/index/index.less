@@ -76,3 +76,77 @@
   text-overflow: ellipsis;
   margin-bottom: 32rpx;
 }
+
+// swiper
+.swiper-item {
+  display: block;
+  height: 150px;
+}
+
+.demo-text-1 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #1aad19;
+  color: #ffffff;
+  font-size: 36rpx;
+}
+.demo-text-1::before {
+  content: 'A';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-2 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #2782d7;
+  color: #ffffff;
+  font-size: 36rpx;
+}
+.demo-text-2::before {
+  content: 'B';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.demo-text-3 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  color: #353535;
+  font-size: 36rpx;
+}
+.demo-text-3::before {
+  content: 'C';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.white-space-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32rpx;
+  box-sizing: border-box;
+}
+
+.white-space {
+  flex: 1;
+  overflow-x: hidden;
+  background-color: pink;
+}
+
+.white-space-wrapable {
+  // width: 100%; // skyline 必须要设置 width 才能阻止换行
+  // display: inline-block;
+  // display: block;
+  // display: inline;
+  white-space: normal;
+}
