@@ -150,3 +150,35 @@
   // display: inline;
   white-space: normal;
 }
+
+.animation {
+  margin-bottom: 32rpx;
+}
+
+.divider-border {
+  display: flex;
+  border-color: pink;
+  border-style: solid;
+  border-width: 0;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    flex: 1;
+    box-sizing: border-box;
+    border: inherit;
+    border-color: inherit;
+    border-style: inherit;
+    border-top-width: 1px;
+    transform: scaleY(0.5);
+    transform-origin: bottom; // skyline 必须显示设置
+  }
+}
+
+.divider__content {
+  margin: 0 24rpx;
+}

@@ -17,40 +17,20 @@
     <view class="flex row-reverse">
       row-reverse
     </view>
-
-    <!-- <view class="title">4. swiper</view>
-    <swiper
-      indicator-dots="{{indicatorDots}}"
-      autoplay="{{autoplay}}"
-      circular="{{circular}}"
-      vertical="{{vertical}}"
-      interval="{{interval}}"
-      duration="{{duration}}"
-      previous-margin="{{previousMargin}}px"
-      next-margin="{{nextMargin}}px"
-    >
-      <block wx:for="{{background}}" wx:key="*this">
-        <swiper-item>
-          <view class="swiper-item {{item}}"></view>
-        </swiper-item>
-      </block>
-    </swiper> -->
-
-    <!-- <view class="title">5. white-space: normal</view>
-    <view class="white-space-wrap">
-      <view class="white-space">
-        <view class="white-space-wrapable">
-          white-space white-space white-space white-space white-space
-        </view>
-      </view>
-    </view> -->
-
-
-    <view class="title">6. animation 无效</view>
+   <view class="title">4. animation 无效</view>
     <view class="animation" animation="{{animation}}">
       animation
     </view>
 
+
+    <view class="title">5. 伪元素 + transform: scaleY(0.5) 实现 0.5px，必须显示指定transform-origin: bottom;</view>
+    <view>
+      <view class="divider-border">
+        <view class="divider__content">
+          <view> 文本</view>
+        </view>
+      </view>
+    </view>
   </scroll-view>
 </view>
 
