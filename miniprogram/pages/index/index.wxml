@@ -42,7 +42,7 @@
       </view>
     </view>
 
-    <view class="title">6. not(:empty)，设置margin无效</view>
+    <view class="title">7. not(:empty)，设置margin无效</view>
     <view class="empty__box">
       <view class="empty__box__text1">
         文本1
@@ -50,6 +50,11 @@
       <view class="empty__box__text2">
         文本2
       </view>
+    </view>
+
+    <view class="title">8. scroll-view中定位会受margin影响</view>
+    <view class="navigator-btn">
+      <navigator url="/pages/scroll-view-demo/index">跳转到scroll-view-demo页面</navigator>
     </view>
 
   </scroll-view>

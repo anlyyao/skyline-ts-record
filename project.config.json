@@ -25,7 +25,18 @@
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "condition": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "scroll-view-demo",
+          "pathName": "pages/scroll-view-demo/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
   "srcMiniprogramRoot": "miniprogram/",
   "editorSetting": {
     "tabIndent": "insertSpaces",

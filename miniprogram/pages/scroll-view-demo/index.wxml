@@ -1,0 +1,14 @@
+<scroll-view
+    scroll-y
+    type="list"
+    class="scroll-view__container"
+>
+    <view class="scroll-view__box__track">
+        <view class="scroll-view__box__tips" style="height: 100rpx">
+          下拉刷新
+        </view>
+        <view class="demo">
+            <view class="demo-title">PullDownRefresh 下拉刷新</view>
+        </view>
+    </view>
+</scroll-view>

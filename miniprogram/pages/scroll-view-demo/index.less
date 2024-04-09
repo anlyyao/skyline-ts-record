@@ -1,0 +1,38 @@
+.scroll-view__container {
+  height: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.scroll-view__box__track {
+  position: relative;
+}
+
+.scroll-view__box__tips {
+  background-color: pink;
+  position: absolute;
+  color: red;
+  font-size: 24rpx;
+  top: 0;
+  width: 100%;
+  transform: translateY(-100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.demo {
+  padding-bottom: 56rpx;
+  overflow: hidden;
+}
+
+.demo-title {
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 64rpx;
+  margin-top: 120rpx; // skyline下，tips 内容会显示在margin区域内 ??? （改用padding才能达到预期）
+  // padding: 48rpx 32rpx 0;
+  color: rgba(0, 0, 0, 0.9);
+}

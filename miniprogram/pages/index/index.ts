@@ -29,5 +29,12 @@ Component({
     //     .export(),
     // });
   },
-  methods: {},
+  methods: {
+    onButtontap() {
+      wx.navigateTo({
+        url: 'pages/scroll-view-demo/index',
+        routeType: 'customRoute',
+      });
+    },
+  },
 });
