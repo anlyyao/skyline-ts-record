@@ -46,6 +46,7 @@
 }
 
 .title {
+  display: block;
   font-size: 32rpx;
   line-height: 32rpx;
 }
@@ -175,10 +176,33 @@
     border-style: inherit;
     border-top-width: 1px;
     transform: scaleY(0.5);
-    transform-origin: bottom; // skyline 必须显示设置
+    // transform-origin: bottom; // skyline 必须显示设置
   }
 }
 
 .divider__content {
   margin: 0 24rpx;
+}
+
+.inline-flex__box {
+  display: block;
+  height: 96rpx;
+  line-height: 48rpx;
+  background-color: pink;
+  margin-bottom: 32rpx;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.empty__box {
+  display: flex;
+
+  &__text1 {
+    background-color: pink;
+    &:not(:empty) {
+      margin-right: 16px;
+    }
+  }
 }

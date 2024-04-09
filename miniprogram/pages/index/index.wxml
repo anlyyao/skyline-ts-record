@@ -31,6 +31,27 @@
         </view>
       </view>
     </view>
+
+    <view class="title">6. inline-flex 无效，正确表现应该在一行</view>
+    <view class="inline-flex__box">
+      <view class="inline-flex">
+        文本1
+      </view>
+      <view class="inline-flex">
+        文本2
+      </view>
+    </view>
+
+    <view class="title">6. not(:empty)，设置margin无效</view>
+    <view class="empty__box">
+      <view class="empty__box__text1">
+        文本1
+      </view>
+      <view class="empty__box__text2">
+        文本2
+      </view>
+    </view>
+
   </scroll-view>
 </view>
 
