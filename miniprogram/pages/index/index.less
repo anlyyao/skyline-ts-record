@@ -33,7 +33,7 @@
 
 // 页面布局
 .skyline {
-  margin: 32px;
+  margin: 32rpx;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -43,12 +43,14 @@
 .scroll-view {
   flex: 1;
   height: 0;
+  padding-bottom: 60rpx;
 }
 
 .title {
   display: block;
   font-size: 32rpx;
   line-height: 32rpx;
+  margin-top: 32rpx;
 }
 
 .flex {
@@ -75,7 +77,6 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  margin-bottom: 32rpx;
 }
 
 // swiper
@@ -153,7 +154,6 @@
 }
 
 .animation {
-  margin-bottom: 32rpx;
 }
 
 .divider-border {
@@ -163,7 +163,6 @@
   border-width: 0;
   align-items: center;
   margin-top: 20rpx;
-  margin-bottom: 20rpx;
 
   &::before,
   &::after {
@@ -189,7 +188,6 @@
   height: 96rpx;
   line-height: 48rpx;
   background-color: pink;
-  margin-bottom: 32rpx;
 }
 
 .inline-flex {
@@ -197,7 +195,6 @@
 }
 
 .empty__box {
-  margin-bottom: 32rpx;
   display: flex;
 
   &__text1 {
@@ -212,4 +209,8 @@
   padding: 16rpx;
   color: white;
   background-color: #0052d9;
+}
+
+.section {
+  margin: 32rpx 0;
 }

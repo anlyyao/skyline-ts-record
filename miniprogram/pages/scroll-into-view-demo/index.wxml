@@ -1,0 +1,16 @@
+
+<scroll-view
+    class="content"
+    scroll-y
+    scroll-with-animation
+    type="list"
+    scroll-into-view="{{scrollIntoView}}"
+>
+<view wx:for="{{categories}}" wx:key="index" class="section">
+    <view class="title" id="title-{{index}}">{{item.title || item.label}}</view>
+    <view style="display: flex" wx:for="{{item.items}}" wx:key="index" wx:for-item="cargo">
+        <image style="width: 80rpx; height: 80rpx" src="{{cargo.image}}"></image>
+        <view>{{cargo.label}}</view>
+    </view>
+    </view>
+</scroll-view>

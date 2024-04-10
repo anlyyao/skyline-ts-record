@@ -1,5 +1,10 @@
 {
-  "pages": ["pages/index/index", "pages/logs/logs", "pages/scroll-view-demo/index"],
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/scroll-view-demo/index",
+    "pages/scroll-into-view-demo/index"
+  ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"

@@ -33,6 +33,12 @@
           "pathName": "pages/scroll-view-demo/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "scroll-into-view-demo",
+          "pathName": "pages/scroll-into-view-demo/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

@@ -57,6 +57,12 @@
       <navigator url="/pages/scroll-view-demo/index">跳转到scroll-view-demo页面</navigator>
     </view>
 
+    <view class="section">
+      <view class="title">8. scroll-into-view中首次加载无效</view>
+      <view class="navigator-btn">
+        <navigator url="/pages/scroll-into-view-demo/index">跳转到scroll-into-view-demo页面</navigator>
+      </view>
+    </view>
   </scroll-view>
 </view>
 
