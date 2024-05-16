@@ -33,7 +33,7 @@
 
 // 页面布局
 .skyline {
-  margin: 32rpx;
+  // margin: 32rpx;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -213,4 +213,44 @@
 
 .section {
   margin: 32rpx 0;
+}
+
+// 栅格
+.dark {
+  background-color: #0052d9;
+}
+
+.light {
+  background-color: #366ef4;
+}
+
+.dark,
+.light {
+  background-clip: content-box;
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 96rpx;
+  margin-bottom: 32rpx;
+  text-align: center;
+}
+
+.test-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.test-col {
+  box-sizing: border-box;
+}
+
+.test-col-4 {
+  width: calc(4 * 100% / 24);
+}
+.test-col--offset-4 {
+  margin-left: calc(4 * 100% / 24);
+}
+
+.test-col-16 {
+  width: calc(16 * 100% / 24);
 }

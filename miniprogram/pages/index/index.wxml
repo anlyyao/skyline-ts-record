@@ -58,9 +58,17 @@
     </view>
 
     <view class="section">
-      <view class="title">8. scroll-into-view中首次加载无效</view>
+      <view class="title">9. scroll-into-view中首次加载无效</view>
       <view class="navigator-btn">
         <navigator url="/pages/scroll-into-view-demo/index">跳转到scroll-into-view-demo页面</navigator>
+      </view>
+    </view>
+
+    <view class="section">
+      <view class="title">9. flex 栅格</view>
+      <view class="test-row">
+         <view class="test-col test-col-4 dark">col-4</view>
+         <view class="test-col test-col-16 test-col--offset-4 dark">col-16</view>
       </view>
     </view>
   </scroll-view>
