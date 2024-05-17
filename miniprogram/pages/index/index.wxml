@@ -65,11 +65,18 @@
     </view>
 
     <view class="section">
-      <view class="title">9. flex 栅格</view>
+      <view class="title">10 flex 栅格</view>
       <view class="test-row">
          <view class="test-col test-col-4 dark">col-4</view>
          <view class="test-col test-col-16 test-col--offset-4 dark">col-16</view>
       </view>
+    </view>
+
+    <view class="section">
+      <view class="title">11 box-sizing</view>
+      <view class="box-sizing content-box">Content box</view>
+      <view class="title"></view>
+      <view class="box-sizing border-box">Border box</view>
     </view>
   </scroll-view>
 </view>
