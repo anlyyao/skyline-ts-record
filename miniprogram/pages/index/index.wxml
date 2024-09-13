@@ -1,6 +1,6 @@
 <view class="skyline">
   <scroll-view scroll-y type="list" class="scroll-view">
-    <view class="title">1. border 实现三角形有分界线</view>
+    <!-- <view class="title">1. border 实现三角形有分界线</view>
     <view class="card card--active">
       <view style="width: 40px; height: 40px"></view>
     </view>
@@ -77,7 +77,23 @@
       <view class="box-sizing content-box">Content box</view>
       <view class="title"></view>
       <view class="box-sizing border-box">Border box</view>
+    </view> -->
+
+
+    <view>
+      <view class="title">12 绝对定位与border-width</view>
+      <view class="parent">
+       <view class="child"> content </view>
+      </view>
     </view>
+
+
+    <!-- <view>
+      <view class="title">13 绝对定位与transform</view>
+      <view class="parent-13">
+           <view class="child-13"> content </view>
+        </view>
+    </view> -->
   </scroll-view>
 </view>
 
